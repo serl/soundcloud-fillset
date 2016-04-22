@@ -51,8 +51,9 @@ def main(include_original_songs=False):
     # limit to 500 or explode the API
     playlist_auto_tracks = list(playlist_auto_tracks)[:500]
     random.shuffle(playlist_auto_tracks)
-    print('Adding {} tracks to the playlist...'.format(len(playlist_auto_tracks)))
+    print('Adding {} tracks to the playlist...'.format(len(playlist_auto_tracks)), end='', flush=True)
     client.put(playlist_auto.uri, playlist={'tracks': [{'id': x} for x in playlist_auto_tracks]})
+    print(' done.')
 
 
 if __name__ == '__main__':
