@@ -14,16 +14,12 @@ Then create a virtual environment and install the Python dependencies, by runnin
 
 ## Configuration
 
-First, create an app using <http://soundcloud.com/you/apps/new>. Create a `settings.py` file (you can copy `settings.example.py` if you want), and fill it with your client id and secret.
-
-Obtain an access token running:
+First, create an app using <http://soundcloud.com/you/apps/new>; create a `settings.py` file (you can copy `settings.example.py` if you want), and fill it with your client id and secret. Obtain an access token with:
 
 ```bash
 source .env  # not necessary if you already ran it in this same console.
 python get_access_token.py
 ```
-
-And following the instructions.
 
 
 ## Usage
