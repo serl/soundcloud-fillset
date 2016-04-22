@@ -1,0 +1,5 @@
+fudge==1.1.0
+requests==2.9.1
+simplejson==3.8.2
+six==1.10.0
+soundcloud==0.5.0
