@@ -1,0 +1,3 @@
+pyvenv .localpyenv &&
+source .localpyenv/bin/activate &&
+pip install -r requirements.txt
