@@ -18,7 +18,8 @@ If alternatively you have [direnv](https://direnv.net/) installed in your machin
 
 ## Configuration
 
-First, create an app using <http://soundcloud.com/you/apps/new>; create a `settings.py` file (you can copy `settings.example.py` if you want), and fill it with your client id and secret. Obtain an access token with:
+First, create an app using <https://soundcloud.com/you/apps/new>; copy `settings.example.py` to `settings.py` and fill it with your client id and secret.
+Obtain an access token with:
 
 ```bash
 source .pyenv  # not necessary if you already ran it in this same console or if you use direnv
