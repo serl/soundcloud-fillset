@@ -1,4 +1,4 @@
-python3 -m venv .localpyenv &&
-source .localpyenv/bin/activate &&
+python3 -m venv .direnv &&
+source .direnv/bin/activate &&
 pip install wheel &&
 pip install -r requirements.txt
