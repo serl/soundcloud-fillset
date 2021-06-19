@@ -1,4 +1,4 @@
-.localpyenv
+.direnv
 __pycache__/
 *.pyc
 settings.py
